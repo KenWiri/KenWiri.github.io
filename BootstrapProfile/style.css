@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font-family: 'Tangerine', serif;
+  line-height: 1.4em;
+  background-image: linear-gradient(to bottom ,#ffefba,#ffffff,#6dd5fa,#ffffff);
+  margin:3px 3px;
+}
+
+.navbar {
+	height:35px;
+	font-size:0.8em;
+}
+.jumbotron {
+  max-width:auto;
+  width:100%;
+  height:280px;
+  background-image: url("images/background1.jpg");
+  border-bottom:5px solid white;
+  background-size: cover;
+  overflow:hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align:center;
+  opacity: 0.6;
+
+}
+.profile h1 {
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-size:2.5em;
+	padding-bottom: 20px;
+}
+
+.profile h3 {
+	text-align: center;
+	color:blue;
+	font-size: 1.5em;
+}
+
+.profile-picture {
+  position: center;
+  display: block;
+  margin-right: auto;
+  margin-left:auto;
+  margin-top:-120px;
+  margin-bottom: 30px;
+  border:2px solid white;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+.profile-picture:hover {
+	border-radius:15% 15%;
+	border:3px dotted black;
+	transition:.8s;
+	opacity: 0.9;
+}
+.profile {
+	text-align: center;
+}
+#about-me {
+	text-align: center;
+	margin-top:100px;
+}
+table, th, td {
+	border:1px solid red;
+}
+
+#about-me {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:80px;
+}
+
+.table {
+	margin-bottom: 50px;
+	color:#f3e98c;
+	font-size: 1.5em;
+	color:black;
+}
+footer {
+	text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav li {
+	list-style-type: none;
+	float:left;
+	display:inline;
+	color:white;
+	padding-left:20px;
+	padding-right:10px;
+	padding-top: 3px;
+	font-size:1.1em;
+	opacity: 1;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.gallery {
+	max-width:800px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.gallery img{
+	width:150px;
+	height:150px;
+}
+
+a:link {
+	color:black;
+	text-decoration: none;
+}
+
+a:hover {
+	color:red;
+}
+
+a:active {
+	color:red;
+}
+a:visited {
+  color: black;
+}
+
+.name {
+	color:red;
+	font-weight: bold;
+	font-size:1.5em;
+
+}
+
+/*CSS RESET*/
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+
